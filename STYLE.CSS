@@ -1,0 +1,121 @@
+body{
+    /* text-align: center; */
+    padding: 10px;
+}
+#btn1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:white;
+    cursor: pointer;
+}
+#btn2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+#btn3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#btn4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:red;
+    color: black;
+    cursor: pointer;
+}
+#btn5{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:green;
+    color: black;
+    cursor: pointer;
+}  
+.left-content{
+    width: 50%;
+    float: left;
+    text-align: center;
+   
+} 
+.right-content{
+    width: 50%;
+    float: right;
+}
+#pic{
+    width: 80%;
+    height: 90vh;
+}
+.main-header{
+    font-size: larger;
+}
+.quantity{
+    display:flex;
+    padding: 5px;
+}
+.select{
+   margin: 20px;
+   padding: 0px;
+   margin-left: 5px;
+   border: 1px solid ;
+   border-radius: 30px;
+   background-color: aliceblue;
+   cursor: pointer;
+}
+.btn{
+    border-radius:50px ;
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+.sizes{
+    font-weight: lighter;
+    padding: 10px;
+    cursor: pointer;
+}
+.header{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 0%;
+}
+
+.rate-offer{
+    text-decoration:underline;
+}
+.carts{
+    text-align: right;
+    margin-right: 70px;
+}
+.carts img{
+    width: 40px;
+    height: 40px;    
+}
+@media only screen and (max-width:600px) {
+    .right-content{
+        height: 90vh;
+        width: 90%;
+    }  
+}
+
+
+
+
+
